@@ -11,6 +11,7 @@ header {
 	background-image: url(../img/header-bg.jpg);
 	background-size: 100%;
 	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .container {
@@ -18,7 +19,7 @@ header {
 	font-family: 'Kaushan Script', cursive;
 	color: #fec503;
 	font-size: 28px;
-}
+	}
 }
 
 .active {
@@ -26,18 +27,17 @@ header {
 }
 
 .nav {
-	li {
-		a {
-			color: $color-blanco;
-			text-transform: uppercase;
-			font-size: 12px;
-			&:hover {
-				color: $color-amarillo;
-				background-color: transparent;
-				transition: .5s;
-			}
+	.nav-link {
+		color: $color-blanco;
+		text-transform: uppercase;
+		font-size: 12px;
+		padding: 25px;
+		vertical-align: center;
+		&:hover {
+			color: $color-amarillo;
+			background-color: transparent;
+			transition: .5s;
 		}
-
 	}
 }
 

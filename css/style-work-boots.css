@@ -5,7 +5,8 @@ a:hover {
 header {
   background-image: url(../img/header-bg.jpg);
   background-size: 100%;
-  background-position: center center; }
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .container .text-muted {
   font-family: 'Kaushan Script', cursive;
@@ -15,11 +16,13 @@ header {
 .active {
   color: #fec503; }
 
-.nav li a {
+.nav .nav-link {
   color: #fff;
   text-transform: uppercase;
-  font-size: 12px; }
-  .nav li a:hover {
+  font-size: 12px;
+  padding: 25px;
+  vertical-align: center; }
+  .nav .nav-link:hover {
     color: #fec503;
     background-color: transparent;
     transition: .5s; }
