@@ -5,6 +5,7 @@ $color-blanco : #fff;
 
 a:hover {
 	background-color: transparent;
+	text-decoration: none;
 }
 
 header {
@@ -12,6 +13,10 @@ header {
 	background-size: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
+}
+
+.flex {
+	display: flex;
 }
 
 .container {
@@ -32,11 +37,12 @@ header {
 		text-transform: uppercase;
 		font-size: 12px;
 		padding: 25px;
-		vertical-align: center;
+		text-decoration: none;
 		&:hover {
 			color: $color-amarillo;
 			background-color: transparent;
 			transition: .5s;
+			text-decoration: none;
 		}
 	}
 }
@@ -65,7 +71,7 @@ header {
 .services {
 	text-align: center;
 	margin-top: 90px;
-	padding: 0 100px;
+	padding: 0 100px 60px 100px;
 	box-sizing: border-box;
 	p {
 		color: #999;
@@ -93,9 +99,71 @@ header {
 	display: inline-block;
 }
 
+.portfolio {
+	background-color: #eeeeee;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 80px 0;
+	p {
+		color: #999;
+		font-size: 13px;
+	}
+	.book {
+		margin: 0 auto;
+		width: 970px;
+		figure {
+			padding: 30px 0 0 0;
+			img {
+				width: 100%;
+			}
+			figcaption {
+			padding: 15px;
+			background-color: #fff;
+			box-sizing: border-box;
+			}
+		}
+		
+	}
+}
 
-
-
+.about {
+	.espacio {
+		padding: 50px 0 0 0;
+		.padding-izq {
+			padding: 0 0 0 130px;
+		}
+	}
+	h2, p {
+		text-align: center;
+	}
+	margin-top: 90px;
+	padding: 0 100px 60px 100px;
+	box-sizing: border-box;
+	.derecha {
+		text-align: right;
+		figure {
+			height: 150px;
+			width: 150px;
+			img {
+			width: 100%;
+			}
+		}
+	}
+	.izquierda {
+		text-align: left;
+		figure {
+			height: 150px;
+			width: 150px;
+			img {
+			width: 100%;
+			}
+		}
+	}
+	.txt-gris {
+		color: #777;
+	}
+}
 
 
 
